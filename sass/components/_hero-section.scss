@@ -1,13 +1,24 @@
 .hero-section {
   max-width: 1460px;
+  border-bottom: 1px solid $border-color;
   &__name-title {
+    margin-bottom: 20px;
     font-weight: 900;
     font-size: 100px;
     line-height: 1.17;
     letter-spacing: 0.005em;
     text-transform: uppercase;
+    color: $secondary-text-color;
   }
   &__last-name {
-    font-weight: 300;
+    font-weight: 500;
+    color: $last-name-color;
+  }
+  &__name-description {
+    margin-bottom: 70px;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.005em;
+    color: $secondary-text-color;
   }
 }

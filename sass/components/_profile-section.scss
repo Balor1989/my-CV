@@ -1,0 +1,16 @@
+.profile-section {
+  &__summary-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.49;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+  &__summary-description {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+}

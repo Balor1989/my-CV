@@ -8,13 +8,27 @@
     margin-bottom: 40px;
   }
   &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     cursor: pointer;
     font-weight: 500;
     font-size: 34px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    transition: color 250ms $cubic-bezier;
 
     color: $primary-text-color-darker;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $secondary-text-color;
+  }
+  &__icon {
+    margin-right: 30px;
+    width: 48px;
+    height: 48px;
+    fill: $icon-color;
   }
 }

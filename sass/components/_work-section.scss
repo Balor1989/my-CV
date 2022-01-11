@@ -9,9 +9,14 @@
     text-transform: uppercase;
     color: $secondary-text-color;
   }
+  &__container {
+    display: flex;
+    margin-bottom: 20px;
+  }
   &__work-title {
     font-family: poppins;
     font-size: 20px;
+    margin-bottom: 5px;
     color: $primary-text-color-darker;
   }
 }

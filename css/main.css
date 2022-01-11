@@ -213,7 +213,18 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.work-section__title-box {
+  max-width: 37%;
+}
+
+.work-section__work-box {
+  max-width: 60%;
 }
 
 .work-section__work-title {
@@ -225,5 +236,41 @@ img {
 
 .sidebar-section {
   max-width: 30%;
+}
+
+.education-section__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.education-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.education-section__box {
+  max-width: 37%;
+}
+
+.education-section__education-description {
+  max-width: 60%;
+}
+
+.education-section__education-title {
+  font-family: poppins;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333333;
 }
 /*# sourceMappingURL=main.css.map */

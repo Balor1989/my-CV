@@ -1,4 +1,4 @@
-.work-section {
+.education-section {
   &__title {
     margin-bottom: 20px;
     font-family: poppins;
@@ -14,13 +14,13 @@
     justify-content: space-between;
     margin-bottom: 20px;
   }
-  &__title-box {
+  &__box {
     max-width: 37%;
   }
-  &__work-box {
+  &__education-description {
     max-width: 60%;
   }
-  &__work-title {
+  &__education-title {
     font-family: poppins;
     font-size: 20px;
     margin-bottom: 5px;

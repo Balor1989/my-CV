@@ -1,0 +1,13 @@
+.hero-section {
+  max-width: 1460px;
+  &__name-title {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 1.17;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+  }
+  &__last-name {
+    font-weight: 300;
+  }
+}

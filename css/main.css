@@ -62,12 +62,28 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 2480px;
+  max-width: 2480px;
   padding: 200px 160px;
   background-color: #ffffff;
 }
 
 .main-section {
-  width: 70%;
+  max-width: 70%;
+}
+
+.hero-section {
+  max-width: 1460px;
+}
+
+.hero-section__name-title {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 1.17;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+}
+
+.hero-section__last-name {
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */

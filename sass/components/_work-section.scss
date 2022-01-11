@@ -1,6 +1,5 @@
-.profile-section {
-  &__summary-title {
-    margin-top: 20px;
+.work-section {
+  &__title {
     margin-bottom: 20px;
     font-family: poppins;
     font-weight: 700;
@@ -10,9 +9,9 @@
     text-transform: uppercase;
     color: $secondary-text-color;
   }
-  &__summary-description {
-    margin-bottom: 20px;
-    font-size: 17px;
-    line-height: 1.7;
+  &__work-title {
+    font-family: poppins;
+    font-size: 20px;
+    color: $primary-text-color-darker;
   }
 }

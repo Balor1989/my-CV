@@ -12,7 +12,8 @@ body {
   background-color: $body-background-color;
   color: $primary-text-color;
   margin: 0px;
-  padding: 40px;
+  padding: 5px;
+  max-height: inherit;
 }
 
 h1,

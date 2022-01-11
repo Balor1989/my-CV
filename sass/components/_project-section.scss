@@ -10,10 +10,11 @@
     color: $secondary-text-color;
   }
   &__container {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   &__projects-title {
     font-family: poppins;
+    font-size: 20px;
     margin-bottom: 20px;
     color: $primary-text-color-darker;
   }
@@ -25,5 +26,10 @@
     padding: 5px;
     font-family: poppins;
     color: $primary-text-color-darker;
+    transition: color 250ms $cubic-bezier;
+  }
+  &__project-link:hover,
+  &__project-link:focus {
+    color: $secondary-text-color;
   }
 }

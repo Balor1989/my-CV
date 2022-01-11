@@ -139,8 +139,9 @@ img {
 }
 
 .profile-section__summary-title {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
+  font-family: poppins;
   font-weight: 700;
   font-size: 25px;
   line-height: 1.49;
@@ -150,7 +151,40 @@ img {
 }
 
 .profile-section__summary-description {
+  margin-bottom: 30px;
   font-size: 17px;
   line-height: 1.7;
+}
+
+.project-section__title {
+  font-family: poppins;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.project-section__container {
+  margin-bottom: 30px;
+}
+
+.project-section__projects-title {
+  font-family: poppins;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.project-section__project:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.project-section__project-link {
+  cursor: pointer;
+  padding: 5px;
+  font-family: poppins;
+  color: #333333;
 }
 /*# sourceMappingURL=main.css.map */

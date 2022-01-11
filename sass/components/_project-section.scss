@@ -1,0 +1,29 @@
+.project-section {
+  &__title {
+    font-family: poppins;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.49;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+  &__container {
+    margin-bottom: 30px;
+  }
+  &__projects-title {
+    font-family: poppins;
+    margin-bottom: 20px;
+    color: $primary-text-color-darker;
+  }
+  &__project:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  &__project-link {
+    cursor: pointer;
+    padding: 5px;
+    font-family: poppins;
+    color: $primary-text-color-darker;
+  }
+}

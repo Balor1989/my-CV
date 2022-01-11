@@ -1,7 +1,8 @@
 .profile-section {
   &__summary-title {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    font-family: poppins;
     font-weight: 700;
     font-size: 25px;
     line-height: 1.49;
@@ -10,6 +11,7 @@
     color: $secondary-text-color;
   }
   &__summary-description {
+    margin-bottom: 30px;
     font-size: 17px;
     line-height: 1.7;
   }

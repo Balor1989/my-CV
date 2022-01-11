@@ -17,8 +17,9 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
   margin: 0px;
-  padding: 0px;
+  padding: 40px;
 }
 
 .body.is-hidden {
@@ -61,7 +62,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
+  width: 2480px;
+  padding: 200px 160px;
+  background-color: #ffffff;
 }
 
 .main-section {

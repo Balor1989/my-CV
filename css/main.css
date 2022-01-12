@@ -66,16 +66,19 @@ img {
   position: absolute;
   top: -41%;
   left: 51%;
+  pointer-events: none;
 }
 
 .footer-lines {
   position: absolute;
   top: 50%;
   left: -17%;
+  pointer-events: none;
 }
 
 .main-section {
-  max-width: 67%;
+  margin-left: 50px;
+  max-width: 73%;
 }
 
 .hero-section {
@@ -342,7 +345,30 @@ img {
   line-height: 1.7;
 }
 
-.sidebar-section {
-  max-width: 30%;
+.image-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.image-section__image {
+  border-radius: 20px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.contacts-section__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
 }
 /*# sourceMappingURL=main.css.map */

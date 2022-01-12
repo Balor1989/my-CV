@@ -1,0 +1,9 @@
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  &__image {
+    border-radius: 20px;
+    filter: grayscale(100%);
+  }
+}

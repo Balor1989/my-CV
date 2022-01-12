@@ -1,0 +1,12 @@
+.contacts-section {
+  &__title {
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.49;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+}

@@ -194,14 +194,28 @@ img {
   color: #333333;
 }
 
+.project-section__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .project-section__project:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .project-section__project-link {
+  width: 20%;
   cursor: pointer;
   padding: 5px;
-  font-family: poppins;
+  font-weight: 500;
+  font-size: 18px;
   color: #333333;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -209,6 +223,19 @@ img {
 
 .project-section__project-link:hover, .project-section__project-link:focus {
   color: #157698;
+}
+
+.project-section__technologies {
+  width: 20%;
+  padding-top: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.project-section__description {
+  padding-top: 5px;
+  width: 56%;
 }
 
 .work-section__title {
@@ -431,7 +458,7 @@ img {
 .tech-section__item {
   margin-left: 20px;
   font-size: 17px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .soft-section__title {
@@ -456,7 +483,7 @@ img {
 .soft-section__item {
   margin-left: 20px;
   font-size: 17px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .language-section__title {
@@ -476,6 +503,6 @@ img {
 
 .language-section__item {
   font-size: 17px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -18,18 +18,36 @@
     margin-bottom: 20px;
     color: $primary-text-color-darker;
   }
+  &__project {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
   &__project:not(:last-child) {
     margin-bottom: 10px;
   }
   &__project-link {
+    width: 20%;
     cursor: pointer;
     padding: 5px;
-    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
     color: $primary-text-color-darker;
     transition: color 250ms $cubic-bezier;
   }
   &__project-link:hover,
   &__project-link:focus {
     color: $secondary-text-color;
+  }
+  &__technologies {
+    width: 20%;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: $primary-text-color-darker;
+  }
+  &__description {
+    padding-top: 5px;
+    width: 56%;
   }
 }

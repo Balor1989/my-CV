@@ -9,6 +9,9 @@
     text-transform: uppercase;
     color: $secondary-text-color;
   }
+  &__container {
+    margin-bottom: 20px;
+  }
   &__link {
     cursor: pointer;
     display: flex;

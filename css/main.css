@@ -57,7 +57,7 @@ img {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
-  padding: 60px 40px;
+  padding: 60px 50px;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -368,6 +368,10 @@ img {
   color: #157698;
 }
 
+.contacts-section__container {
+  margin-bottom: 20px;
+}
+
 .contacts-section__link {
   cursor: pointer;
   display: -webkit-box;
@@ -403,5 +407,75 @@ img {
   width: 24px;
   height: 24px;
   fill: #666666;
+}
+
+.tech-section__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.tech-section__container {
+  margin-bottom: 20px;
+}
+
+.tech-section__tech-list {
+  list-style: outside;
+}
+
+.tech-section__item {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.soft-section__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.soft-section__container {
+  margin-bottom: 20px;
+}
+
+.soft-section__soft-list {
+  list-style: outside;
+}
+
+.soft-section__item {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.language-section__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.language-section__container {
+  margin-bottom: 20px;
+}
+
+.language-section__item {
+  font-size: 17px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */

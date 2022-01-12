@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../sass/components/sidebar/soft-skills.scss"
+    ],
+    "names": [],
+    "file": "soft-skills.min.css"
+}

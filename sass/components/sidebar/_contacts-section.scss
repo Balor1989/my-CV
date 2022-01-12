@@ -9,4 +9,32 @@
     text-transform: uppercase;
     color: $secondary-text-color;
   }
+  &__link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: $primary-text-color-darker;
+    transition: 250ms $cubic-bezier;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $secondary-text-color;
+  }
+  &__link:hover .contacts-section__icon {
+    fill: $secondary-text-color;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  &__icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    fill: $primary-text-color;
+  }
 }

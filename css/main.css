@@ -230,8 +230,20 @@ img {
 .work-section__work-title {
   font-family: poppins;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #333333;
+}
+
+.work-section__position {
+  margin-bottom: 10px;
+  font-family: poppins;
+  font-size: 17px;
+  color: #157698;
+}
+
+.work-section__position-description, .work-section__years {
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .sidebar-section {
@@ -267,10 +279,56 @@ img {
   max-width: 60%;
 }
 
+.education-section__years, .education-section__education-description {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
 .education-section__education-title {
   font-family: poppins;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #333333;
+}
+
+.additional-education__title {
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.49;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+.additional-education__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.additional-education__box {
+  width: 37%;
+}
+
+.additional-education__education-description {
+  width: 60%;
+}
+
+.additional-education__education-title {
+  font-family: poppins;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.additional-education__years, .additional-education__education-description {
+  font-size: 17px;
+  line-height: 1.7;
 }
 /*# sourceMappingURL=main.css.map */

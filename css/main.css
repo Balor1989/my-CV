@@ -64,14 +64,14 @@ img {
 
 .header-lines {
   position: absolute;
-  top: -39%;
+  top: -42%;
   left: 51%;
   pointer-events: none;
 }
 
 .footer-lines {
   position: absolute;
-  top: 55%;
+  top: 51%;
   left: -17%;
   pointer-events: none;
 }

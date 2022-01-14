@@ -9,15 +9,12 @@
     text-transform: uppercase;
     color: $secondary-text-color;
   }
-  &__last-name {
-    font-weight: 500;
-    color: $last-name-color;
-  }
   &__name-description {
-    margin-bottom: 30px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 1.17;
     letter-spacing: 0.005em;
-    color: $secondary-text-color;
+    color: $primary-text-color-darker;
   }
 }

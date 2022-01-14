@@ -29,15 +29,20 @@
   &__project-link {
     width: 20%;
     cursor: pointer;
+    text-decoration: underline;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
     padding: 5px;
     font-weight: 500;
     font-size: 18px;
     color: $primary-text-color-darker;
-    transition: color 250ms $cubic-bezier;
+    transition: all 250ms $cubic-bezier;
   }
   &__project-link:hover,
   &__project-link:focus {
-    color: $secondary-text-color;
+    background-color: $background-link-color;
+    text-decoration: transparent;
   }
   &__technologies {
     width: 20%;
